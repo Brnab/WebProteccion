@@ -49,5 +49,5 @@ public class ProcesoCompra extends PageObject {
 
     public static final Target confirmationMessage  = Target
             .the("Mensaje confirmacion").
-            located(By.xpath("//h2[contains(text(),'THANK YOU FOR YOUR ORDER')]"));
+            located(By.xpath("//h2[contains(text(),'Thank you for your order!')]"));
 }

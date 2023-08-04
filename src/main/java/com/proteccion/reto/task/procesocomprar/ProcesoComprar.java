@@ -86,4 +86,8 @@ public class ProcesoComprar implements Task {
         );
 
     }
+
+    public static ProcesoComprar procesoComprar (){
+        return new ProcesoComprar();
+    }
 }

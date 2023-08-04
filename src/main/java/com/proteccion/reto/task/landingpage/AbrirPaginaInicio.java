@@ -1,7 +1,6 @@
 package com.proteccion.reto.task.landingpage;
 
 import com.proteccion.reto.userinterface.landingpage.PaginaInicio;
-import io.cucumber.java.bs.A;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
