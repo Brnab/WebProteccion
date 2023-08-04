@@ -33,8 +33,8 @@ public class ProcesoCompra extends PageObject {
             located(By.id("last-name"));
 
     public static final Target zipCode = Target
-            .the("Apellido").
-            located(By.id("last-name"));
+            .the("ZipCode").
+            located(By.id("postal-code"));
 
 
     public static final Target btnContinue = Target

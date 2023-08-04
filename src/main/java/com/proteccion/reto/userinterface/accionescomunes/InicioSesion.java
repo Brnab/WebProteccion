@@ -8,12 +8,12 @@ public class InicioSesion extends PageObject {
 
     public static final Target User = Target
             .the("Usuario")
-            .located(By.id("//input[@id='user-name']"));
+            .located(By.id("user-name"));
 
 
     public static final Target PassWord = Target
             .the("Password")
-            .located(By.id("//input[@id='password']"));
+            .located(By.id("password"));
 
     public static final Target btnLogIn = Target
             .the("Log In Button")

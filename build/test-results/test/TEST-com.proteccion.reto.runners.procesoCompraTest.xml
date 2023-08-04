@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.proteccion.reto.runners.procesoCompraTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="PSOFKA0891" time="0.0">
+  <properties/>
+  <system-out><![CDATA[11:39:43.303 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+11:39:43.407 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/bernabe.marcado/Documents/Reto%20Protección/RetoWebProteccion/src/test/resources/features/comprar.feature
+11:39:43.528 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+11:39:43.541 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+11:39:43.544 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@48f24847
+11:39:43.546 [Test worker] INFO  - Test Suite Started: Compra en swagger
+11:39:43.558 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/bernabe.marcado/Documents/Reto%20Protección/RetoWebProteccion/src/test/resources/features/comprar.feature
+11:39:43.562 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@48f24847
+11:39:43.562 [Test worker] INFO  - Test Suite Started: Compra en swagger
+11:40:01.470 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:40:01.615 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:40:01.632 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:56388 : 1
+11:40:01.632 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:55558 : 1
+11:40:01.632 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0xbcdc86a9, L:/127.0.0.1:55557 ! R:localhost/127.0.0.1:56388] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+11:40:01.633 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0xbcdc86a9, L:/127.0.0.1:55557 ! R:localhost/127.0.0.1:56388]
+11:40:01.634 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0xb55393b5, L:/127.0.0.1:55567 ! R:localhost/127.0.0.1:55558] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+11:40:01.635 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0xb55393b5, L:/127.0.0.1:55567 ! R:localhost/127.0.0.1:55558]
+11:40:01.635 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 2 connections out of 2 in 3 ms
+11:40:01.635 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@2668c100
+11:40:01.636 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Compra en swagger:Compra en swagger
+11:40:01.636 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@2668c100: Generating report for test outcome: Compra en swagger:Compra en swagger
+11:40:01.645 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Compra en swagger to file C:\Users\bernabe.marcado\Documents\Reto Protección\RetoWebProteccion\target\site\serenity\cf378dd45f8c10b35c55b578268823b7be51b06570034b2421e3ea6678906286.json (using temp file C:\Users\bernabe.marcado\Documents\Reto Protección\RetoWebProteccion\target\site\serenity\cf378dd45f8c10b35c55b578268823b7be51b06570034b2421e3ea6678906286.json41c77a39-f0e3-427a-a822-34aadb3796cb)
+11:40:01.686 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Compra en swagger:Compra en swagger done
+11:40:01.686 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:40:01.686 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 51 ms
+11:40:01.686 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4c225198
+11:40:01.688 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Compra en swagger:Compra en swagger
+11:40:01.688 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4c225198: Generating report for test outcome: Compra en swagger:Compra en swagger
+11:40:02.992 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Compra en swagger:Compra en swagger done
+11:40:02.993 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:40:02.993 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1307 ms
+11:40:03.126 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+11:40:03.126 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+11:40:03.138 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>

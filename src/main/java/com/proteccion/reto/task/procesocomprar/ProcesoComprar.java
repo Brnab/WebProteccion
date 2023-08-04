@@ -75,8 +75,7 @@ public class ProcesoComprar implements Task {
                 Scroll.to(ProcesoCompra.btnFinish),
                 Click.on(ProcesoCompra.btnFinish),
 
-                Scroll.to(ProcesoCompra.btnContinue),
-                Click.on(ProcesoCompra.btnContinue),
+
 
                 Scroll.to(ProcesoCompra.confirmationMessage)
 

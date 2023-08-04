@@ -8,6 +8,6 @@ public class ProcesoComprar {
 
 
     public static Question<String> resultadoCompra(){
-        return actor -> TextContent.of(ProcesoCompra.confirmationMessage).viewedBy(actor).asString().trim();
+        return actor -> TextContent.of(ProcesoCompra.confirmationMessage).answeredBy(actor).toString().trim();
     }
 }
